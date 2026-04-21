@@ -1,7 +1,7 @@
 import pdfplumber
 import re
 
-def extract_transactions(file_path, password=None):
+def extract_transactions(file_path, password=password):
 
     text_data = ""
 
