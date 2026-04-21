@@ -6,7 +6,7 @@ def extract_transactions(file_path, password=None):
     text_data = ""
 
     # Open PDF (with or without password)
-    with pdfplumber.open(file_path, password=password) as pdf:
+    with pdfplumber.open(file_path, password=9167641708) as pdf:
         for page in pdf.pages:
             text = page.extract_text()
             if text:
